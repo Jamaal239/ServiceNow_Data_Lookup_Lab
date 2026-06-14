@@ -11,7 +11,7 @@ This lab demonstrates how ServiceNow automatically calculates a ticket's priorit
 The initial step requires accessing the lookup configuration table. Searching for "Priority Data Lookups" in the filter navigator clears away unrelated modules and brings up the core lookup rules under the System Policy application.
 
 **Priority Lookup Rules Table**
-[01_Priority_Data_Lookups_List](01_Priority_Data_Lookups_List.png)
+![01_Priority_Data_Lookups_List](screenshots/01_Priority_Data_Lookups_List.png)
 
 ---
 
@@ -19,7 +19,7 @@ The initial step requires accessing the lookup configuration table. Searching fo
 Opening the specific record for a high-impact, high-urgency scenario reveals how individual rules are stored. The standalone form configuration shows the mapping where an Impact of "1 - High" and an Urgency of "1 - High" explicitly dictates a Priority of "1 - Critical".
 
 **Priority Record Form Layout**
-![02_Priority_Record_Form](02_Priority_Record_Form.png)
+![02_Priority_Record_Form](screenshots/02_Priority_Record_Form.png)
 
 ---
 
@@ -27,7 +27,7 @@ Opening the specific record for a high-impact, high-urgency scenario reveals how
 To view the underlying technical framework, navigating to "Data Lookup Definitions" reveals the master records controlling these automated actions. This list tracks all active lookup tables running across different processes, including assignment and priority tracking.
 
 **Data Lookup Definitions List**
-![03_Data_Lookup_Definitions_List](03_Data_Lookup_Definitions_List.png)
+![03_Data_Lookup_Definitions_List](screenshots/03_Data_Lookup_Definitions_List.png)
 
 ---
 
@@ -35,7 +35,7 @@ To view the underlying technical framework, navigating to "Data Lookup Definitio
 Selecting the Priority Lookup record for the Incident table displays the source table and the matcher table connections. The Matcher Field Definitions at the bottom define the input conditions that the platform evaluates.
 
 **Priority Lookup Definition Form**
-![04_Priority_Lookup_Definition_Form](04_Priority_Lookup_Definition_Form.png)
+![04_Priority_Lookup_Definition_Form](screenshots/04_Priority_Lookup_Definition_Form.png)
 
 ---
 
@@ -43,7 +43,7 @@ Selecting the Priority Lookup record for the Incident table displays the source 
 The final phase inspects the Setter Field Definitions tab. This view identifies the target field that the system updates automatically once the input conditions from the matcher fields are successfully met.
 
 **Setter Field Definitions Tab**
-![05_Setter_Field_Definitions_Tab](05_Setter_Field_Definitions_Tab.png)
+![05_Setter_Field_Definitions_Tab](screenshots/05_Setter_Field_Definitions_Tab.png)
 
 ---
 
