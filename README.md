@@ -11,7 +11,7 @@ This lab demonstrates how ServiceNow automatically calculates a ticket's priorit
 The initial step requires accessing the lookup configuration table. Searching for "Priority Data Lookups" in the filter navigator clears away unrelated modules and brings up the core lookup rules under the System Policy application.
 
 **Priority Lookup Rules Table**
-![01_Priority_Data_Lookups_List](01_Priority_Data_Lookups_List.png)
+[01_Priority_Data_Lookups_List](01_Priority_Data_Lookups_List.png)
 
 ---
 
